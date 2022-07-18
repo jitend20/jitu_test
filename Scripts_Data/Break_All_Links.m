@@ -1,5 +1,6 @@
 % FIND ALL BLOCKS THAT ARE CONFIGURABLE SUBSYSTEMS
 % Copyright 2011-2022 The MathWorks, Inc.
+%print('pratik');
 
 ConfigSubsysBlks_path=find_system(bdroot,'FollowLinks','on','RegExp','on','MemberBlocks','.+');
 
